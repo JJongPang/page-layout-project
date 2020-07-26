@@ -17,6 +17,10 @@ a {
     color: #2B292D;
 }
 
+strong {
+    font-weight: 700;
+}
+
 /* button common*/
 .fill-button {
     display: inline-flex;
@@ -189,76 +193,36 @@ a {
 .program-card strong {
     font-size: 18px;
     line-height: 24px;
-    font-weight: 700;
     letter-spacing: -0.02em;
     color: #2B292D;
 }
 
-
 /* Curriculum */
-.curriculum {
-    padding: 40px 10px;
+.curriculum .common-category {
+   color: #0189D1;
 }
 
-.curriculum-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 40px 10px;
-}
-.curriculum-category {
-    display: block;
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: bold;
-    letter-spacing: -0.01em;
-    color: #0189D1;
-    margin-bottom: 8px;
+.curriculum .common-desc {
+    margin-bottom: 32px;
 }
 
-.curriculum-introduce h2 {
-    font-size: 34px;
-    line-height: 36px;
-    font-weight: bold;
-    letter-spacing: -0.03em;
-    color: #2B292D;
-    width: 290px;
-    height: 72px;
-    margin-bottom: 20px;
+.curriculum-image {
+    display: none;
 }
 
-.curriculum-introduce p {
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: normal;
-    letter-spacing: -0.01em;
-    color: #2B292D;
-    width: 290px;
-    height: 96px;
-    margin-bottom: 20px;
-}
-
-.curriculum-fill-button {
-    display: block;
-    font-weight: bold;
-    font-size: 15px;
-    line-height: 24px;
-    letter-spacing: -0.05em;
+.curriculum .row:first-child {
     margin-bottom: 48px;
 }
 
-.curriculum-item p  {
-    font-size: 15px;
-    line-height: 22px;
-    font-weight: normal;
-    letter-spacing: -0.01em;
-    color: #2B292D;
-    width: 290px;
-    height: 88px;
+.curriculum .row:last-child .col-12:first-child {
+    margin-bottom: 40px;
 }
 
-.curriculum-item p strong {
-    font-weight: bold;
+.curriculum-detail-desc {
+    font-size: 15px;
+    line-height: 1.466666666666667;
+    letter-spacing: -0.01em;
+    color: #2B292D;
 }
 
 /* Wrap-up */
@@ -441,74 +405,34 @@ a {
 
     
     /* curriculumn */
-    .curriculum {
-        position: relative;
-        padding: 96px 255px;
+    .curriculum .row:first-child {
+        margin-bottom: 24px;
     }
 
-    .curriculum-fill-button {
-        font-size: 0px;
+    .curriculum .row:last-child .col-12:first-child {
+        margin-bottom: 0;
     }
 
-    .curriculum-fill-button::after {
+    .curriculum .common-desc {
+       margin-bottom: 72px;
+    }
+
+    .curriculum-image {
         display: block;
-        content: "Learn more";
+    }
+
+    .curriculum-image img {
+        display: block;
+        width: 100%;
+        max-width: 425px;
+        height: auto;
+    }
+
+    .curriculum-detail-desc {
         font-size: 18px;
-        line-height: 28px;
+        line-height: 1.4444444;
     }
-
-    .curriculum-introduce::before {
-        content: '';
-        position: absolute;
-        top: 80px;
-        left: 990px;
-        background-image: url('../assets/img-curriculum.png');
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: contain;
-        width: 450px;
-        height: 450px;
-    }
-
-    .curriculum-introduce h2 {
-        font-size: 56px;
-        line-height: 56px;  
-        letter-spacing: -0.03em;
-        width: 450px;
-        height: 112px;
-    }
-    
-
-    .curriculum-introduce p {
-        font-size: 22px;
-        line-height: 32px;
-        letter-spacing: -0.01em;    
-        width: 450px;
-        height: 96px;
-        margin-bottom: 66px;
-    }
-
-    .curriculum-item {
-        display: flex;
-        justify-content: space-between;
-        /* width: 450px;
-        height: 78px; */
-    }
-
-    .curriculum-item .test {
-        font-size: 18px;
-        line-height: 26px;
-        letter-spacing: -0.01em;     
-        width: 450px;
-        height: 78px;
-    }
-
-    .test strong {
-        font-size: 18px;
-        line-height: 26px;
-        letter-spacing: -0.01em;
-    }
-
+ 
     /* wrap-up */
     .wrap-up {
         padding: 96px 255px;
