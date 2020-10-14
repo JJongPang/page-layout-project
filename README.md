@@ -10,7 +10,8 @@
 
 ## 결과물
 
-![web page-layout-project](https://user-images.githubusercontent.com/68219486/95981033-0a24e380-0e59-11eb-9faf-3bc840726c44.JPG)
-![mobile page-layout-project](https://user-images.githubusercontent.com/68219486/95981039-0beea700-0e59-11eb-9893-bb2f82efc04a.JPG)
+![web page-layout-project](https://user-images.githubusercontent.com/68219486/95981302-65ef6c80-0e59-11eb-95dc-7888e7282857.JPG)
+
+![mobile page-layout-project](https://user-images.githubusercontent.com/68219486/95981305-66880300-0e59-11eb-80c5-4dd427415ab0.JPG)
 
 #### Project URL: https://jjongpang.github.io/page-layout-project/
