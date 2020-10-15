@@ -2,11 +2,11 @@
 
 ## 프로젝트 목적
 
-- HTML, CSS를 이용한 반응형 layout 완성
+- HTML, CSS, Bootstrap grid system을 이용한 반응형 layout 완성
 
 ## 프로젝트 과정
 
-- clon할 figma 파일 다운로드 후 해당 디자인에 맞춰 layout 작업 실시
+- layout 디자인이된 figma 파일 다운로드 후 해당 디자인에 맞춰 layout 작업 실시
 
 ## 결과물
 
